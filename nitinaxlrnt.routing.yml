@@ -1,0 +1,8 @@
+nitinaxlrnt.allsitemaps:
+  path: 'page_json/{apikey}/{nid}'
+  defaults:
+    _controller: 'Drupal\nitinaxlrnt\Controller\PageController::getnodedetails'
+    _title: 'Page Node Details'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content' 
